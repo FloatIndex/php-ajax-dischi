@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+header {
+    height: 60px;
+    background-color: #068CD8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+header .logo {
+    width: 60px;
+}
+/* FINE HEADER */
+
+
+/* MAIN */
+main {
+    height: calc(100vh - 60px);
+    background-color: #424D58;
+    padding: 70px 0px;
+    overflow-y: scroll;
+}
+
+main .col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* card */
+.card {
+    width: 100%;
+    background-color: #FCB014;
+}
+
+.card .poster {
+    width: 100%;
+    height: auto;
+}
+
+.card .card-body {
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
+    text-align: center;
+}
+
+.card .card-body .title {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.card .card-body .title p {
+    font-size: 0.8rem;
+    text-shadow: 1px 1px 2px #000;
+}
+/* FINE MAIN */
